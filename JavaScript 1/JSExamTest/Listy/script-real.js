@@ -3,6 +3,7 @@
     var inputArray = params;
     inputArray[inputArray.length - 1] = 'def answer ' + inputArray[inputArray.length - 1];
     var variablesArray = [];
+
     function getValues(arr, arr2) {
         var resultValues = arr;
         var variablesArray = arr2;
@@ -40,11 +41,9 @@
             }
         }
 
-        return getValues(resultValues, variablesArray);
+        getValues(resultValues, variablesArray);
     }
-    //variablesArray['wtf'] = [1, 2, 3, 4, 5];
-    //variablesArray['lol'] = 99999999;
-
+    
     for (var i = 0; i < inputArray.length; i++) {
         var operation = null;
         var command = inputArray[i];
@@ -59,22 +58,6 @@
         var arrString = command.slice(index + 1, command.length - 1);
         var splitArrString = arrString.replace(/\s+/g, '').split(',');
         splitArrString = getValues(splitArrString, variablesArray);
-
-        //if (isNaN(splitArrString[0])) {
-        //    variableName = splitArrString[0];
-        //    if (variablesArray.hasOwnProperty(variableName)) {
-        //        if (variablesArray[variableName] instanceof Array) {
-        //            splitArrString.splice(0, 1);
-        //            for (var o in variablesArray[variableName]) {
-        //                splitArrString.push(variablesArray[variableName][o])
-        //            }
-        //        }
-        //        else {
-        //            splitArrString.splice(0, 1);
-        //            splitArrString.push(variablesArray[variableName]);
-        //        }
-        //    }
-        //}
 
         for (var z in splitArrString) {
             splitArrString[z] = parseInt(splitArrString[z]);
