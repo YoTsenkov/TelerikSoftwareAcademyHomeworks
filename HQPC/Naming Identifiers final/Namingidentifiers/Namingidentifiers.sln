@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.RefactorCSharp", "01.RefactorCSharp\01.RefactorCSharp.csproj", "{158581B6-57D6-43F4-9B69-726020F53EB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.RefactorCSharp", "02.RefactorCSharp\02.RefactorCSharp.csproj", "{0B2DCE7C-58FC-4636-A30B-CA28EF943BEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.RefactorJavaScript", "03.RefactorJavaScript\03.RefactorJavaScript.csproj", "{0BAC491E-33A4-4611-9DD1-DEFB3478F7BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.RefactorMinesweeper", "04.RefactorMinesweeper\04.RefactorMinesweeper.csproj", "{A7177EF5-FFE3-45DB-B708-A6BD5342BA2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{158581B6-57D6-43F4-9B69-726020F53EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{158581B6-57D6-43F4-9B69-726020F53EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{158581B6-57D6-43F4-9B69-726020F53EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{158581B6-57D6-43F4-9B69-726020F53EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B2DCE7C-58FC-4636-A30B-CA28EF943BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B2DCE7C-58FC-4636-A30B-CA28EF943BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B2DCE7C-58FC-4636-A30B-CA28EF943BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B2DCE7C-58FC-4636-A30B-CA28EF943BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BAC491E-33A4-4611-9DD1-DEFB3478F7BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BAC491E-33A4-4611-9DD1-DEFB3478F7BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BAC491E-33A4-4611-9DD1-DEFB3478F7BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BAC491E-33A4-4611-9DD1-DEFB3478F7BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7177EF5-FFE3-45DB-B708-A6BD5342BA2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7177EF5-FFE3-45DB-B708-A6BD5342BA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7177EF5-FFE3-45DB-B708-A6BD5342BA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7177EF5-FFE3-45DB-B708-A6BD5342BA2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

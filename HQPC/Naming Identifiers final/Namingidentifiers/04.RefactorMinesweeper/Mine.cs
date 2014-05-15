@@ -1,40 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Mines
+﻿namespace _04.RefactorMinesweeper
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
     public class Mine
     {
-        public class Score
-        {
-            string playerName;
-            int playerPoints;
-
-            public string PlayerName
-            {
-                get { return this.playerName; }
-                set { this.playerName = value; }
-            }
-
-            public int PlayerPoints
-            {
-                get { return this.playerPoints; }
-                set { this.playerPoints = value; }
-            }
-
-            public Score() { }
-
-            public Score(string playerName, int playerPoints)
-            {
-                this.PlayerName = playerName;
-                this.PlayerPoints = playerPoints;
-            }
-        }
-
         static void Main(string[] arguments)
         {
+            const int MaxMovesAllowed = 35;
             string inputCommand = string.Empty;
             char[,] playingField = CreatePlayingField();
             char[,] bombsField = CreateBombsField();
@@ -44,7 +18,6 @@ namespace Mines
             int row = 0;
             int column = 0;
             bool gameStarted = true;
-            const int MaxMovesAllowed = 35;
             bool gameEnded = false;
 
             do
@@ -169,7 +142,7 @@ namespace Mines
                 Console.WriteLine("Made in Bulgaria - Uauahahahahaha!");
                 Console.WriteLine("Go get em gurl !!.");
                 Console.Read();
-            }            
+            }
         }
 
         private static void DisplayRanklist(List<Score> scores)
@@ -194,24 +167,24 @@ namespace Mines
         private static void YourTurn(char[,] playingField,
             char[,] bombsField, int row, int col)
         {
-            char bombsCounter = kolko(bombsField, row, col);
+            char bombsCounter = Count(bombsField, row, col);
             bombsField[row, col] = bombsCounter;
             playingField[row, col] = bombsCounter;
         }
 
         private static void CreateBoard(char[,] board)
         {
-            int row = board.GetLength(0);
-            int col = board.GetLength(1);
+            int rows = board.GetLength(0);
+            int cols = board.GetLength(1);
 
             Console.WriteLine("\n    0 1 2 3 4 5 6 7 8 9");
             Console.WriteLine("   ---------------------");
 
-            for (int i = 0; i < row; i++)
+            for (int i = 0; i < rows; i++)
             {
                 Console.Write("{0} | ", i);
 
-                for (int k = 0; k < col; k++)
+                for (int k = 0; k < cols; k++)
                 {
                     Console.Write(string.Format("{0} ", board[i, k]));
                 }
@@ -266,12 +239,12 @@ namespace Mines
                 }
             }
 
-            foreach (int i2 in r3)
+            foreach (int number in r3)
             {
-                int col = (i2 / cols);
-                int row = (i2 % cols);
+                int col = (number / cols);
+                int row = (number % cols);
 
-                if (row == 0 && i2 != 0)
+                if (row == 0 && number != 0)
                 {
                     col--;
                     row = cols;
@@ -287,7 +260,7 @@ namespace Mines
             return playingField;
         }
 
-        private static void smetki(char[,] field)
+        private static void Calculations(char[,] field)
         {
             int col = field.GetLength(0);
             int row = field.GetLength(1);
@@ -298,14 +271,14 @@ namespace Mines
                 {
                     if (field[i, k] != '*')
                     {
-                        char kolkoo = kolko(field, i, k);
-                        field[i, k] = kolkoo;
+                        char count = Count(field, i, k);
+                        field[i, k] = count;
                     }
                 }
             }
         }
 
-        private static char kolko(char[,] bombsField, int rows, int cols)
+        private static char Count(char[,] bombsField, int rows, int cols)
         {
             int bombsCounter = 0;
             int bombFieldRows = bombsField.GetLength(0);
