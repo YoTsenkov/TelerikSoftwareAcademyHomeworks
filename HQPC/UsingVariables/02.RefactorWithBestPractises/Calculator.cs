@@ -41,8 +41,8 @@ public class Calculator
             sum += values[i];
         }
 
-        double avarage = sum / numberOfelementsToCompare;
-        Console.WriteLine("The avarage value is " + avarage);
+        double avarageValue = sum / numberOfelementsToCompare;
+        Console.WriteLine("The avarage value is " + avarageValue);
     }
 }
 
