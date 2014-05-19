@@ -1,0 +1,57 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: #b5b5b5;
+}
+
+h1 {
+    color: #fcffdb;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body > header {
+    text-align: center;
+    margin-left: 0;
+    font-size: medium;
+}
+
+.current {
+    background-color: lightgrey;
+}
+
+li:last-child a {
+    text-decoration: underline;
+}
+
+header {
+    font-size: 17px;
+}
+
+header, p {
+    margin-left: 5px;
+}
+
+    p > a {
+        color: black;
+    }
+
+body > footer {
+    text-align: center;
+    font-weight: 600;
+}
+
+article > p {
+    font-size: small;
+}
+
+footer > p {
+    font-size: 10px;
+}

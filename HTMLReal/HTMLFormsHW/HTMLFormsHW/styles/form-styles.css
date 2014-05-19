@@ -1,0 +1,53 @@
+﻿table {
+    width:300px;
+}
+
+th {
+    text-align:right;
+}
+
+textarea {
+    width:85%;
+    resize:none;
+}
+
+#last-name, #first-name, #email {
+    width:90%;
+}
+
+#postal-code {
+    width:70px;
+}
+
+#country {
+    width: 170px;
+}
+
+#country-code, #area-code {
+    width:15%;
+}
+
+#number {
+    width:43%;
+}
+
+#month, #day {
+    width:20px;
+}
+
+#year {
+    width:50px;
+}
+
+#gender {
+    width:80px;
+}
+
+tfoot {
+    background-color:lightblue;    
+}
+
+#wrapper {
+    text-align:center;
+}
+

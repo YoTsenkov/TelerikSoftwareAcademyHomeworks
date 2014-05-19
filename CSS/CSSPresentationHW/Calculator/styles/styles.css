@@ -1,0 +1,130 @@
+﻿body {
+    font-family: Tahoma;
+}
+
+.main-div {
+    font-size: 11px;
+    width: 425px;
+    height: 385px;
+    background-color: #C6E0FB;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.inner-div {
+    background-color: #DAE5F2;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.byte-table {
+    width: 94%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 11px;
+    padding-left: 8px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+
+.buttons-div {
+    text-align:center;
+}
+
+input[type=button] {
+    font-size: 12px;
+    width: 100%;
+    height: 100%;
+}
+
+input[type=button]:hover {
+    background-color: yellow;
+}
+.buttons-table {          
+    width: 280px;    
+    height: 170px;
+    margin-left: 5px;
+    margin-top: 5px;
+    display: inline-block;
+    padding: 0;
+}
+
+    .buttons-table tr > td {
+        margin:0;
+        padding:0;
+    }
+
+.numeral-system, .word-list {
+    width: 75px;
+    margin-top: 5px;
+    margin-left: 10px;
+   
+}
+
+.radio-wrapper {
+     float:left;
+}
+td {
+    width: 13%;
+}
+
+input, .byte-table, .numeral-system, .word-list {
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+.buttons-table tr {
+    display: block;
+    height: 30px;
+}
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+input[type=text] {
+    width: 93%;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: right;
+    font-size: 20px;
+}
+
+div > nav {
+    background-color: #DAE0F1;
+}
+
+header {
+    margin-left: 15%;
+    
+}
+
+nav {
+    vertical-align: central;
+
+}
+
+span {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 11px;
+}
+
+div nav {
+    padding-top: 3px;
+    padding-bottom: 0px;
+    width: 90%;
+    margin-left: 5%;
+}

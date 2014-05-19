@@ -1,0 +1,82 @@
+﻿body {
+    font-family: Tahoma;
+}
+
+.main-section {
+    background-color: green;
+    width: 385px;
+}
+
+.inner-section {
+    background-color: blue;
+    margin: 6px;
+    margin-top: -3px;
+}
+
+
+input[type=button] {
+    width: 100%;
+    height: inherit;
+}
+
+header {
+    background-image: url(images/calculator1.gif);
+    background-position: 6px 5px;
+    background-repeat: no-repeat;
+    background-size: 18px;
+    padding-left: 28px;
+    padding-top: 5px;
+    font-size: 11px;
+}
+
+div.main-nav {
+    border-bottom: solid thin;
+    border-width: 1px;
+    height: 15px;
+}
+
+    div.main-nav ul {
+        list-style-type: none;
+        padding-left: 6px;
+        font-size: 11px;
+    }
+
+        div.main-nav ul li {
+            display: inline-block;
+            margin-right: 8px;
+        }
+
+input[type=text] {
+    text-align: right;
+    margin: 10px;
+    width: 350px;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 0;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.byte-table {
+    font-size: 12px;
+    border: solid thin;
+    width: 351px;
+    margin:10px;
+    margin-top:0;
+    
+    
+}
+
+.byte-table tr td div {
+    width:100%;
+    color:red;
+}
+.align-right{
+    text-align:right;
+    
+}
+
+table.buttons-table {
+    padding-left:28px;
+    width:100px;
+}

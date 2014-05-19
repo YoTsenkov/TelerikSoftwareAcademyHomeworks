@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Huge ass form</title>
+    <link href="styles/form-styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <form name="myForm" method="get">
+        <table border="1">
+            <tbody>
+                <tr>
+                    <th id="last-name-th"><label for="last-name">Last Name</label></th>
+                    <td colspan="3" headers="last-name-th"><input type="text" value="Nakov" name="last-name" id="last-name" /></td>
+                </tr>
+                <tr>
+                    <th id="first-name-th"><label for="first-name">First Name</label></th>
+                    <td colspan="3" headers="first-name-th"><input type="text" value="Svetlin" name="first-name" id="first-name" /></td>
+                </tr>
+                <tr>
+                    <th id="address-th"><label for="address">Address</label></th>
+                    <td colspan="3" headers="address-th"><textarea name="address" id="address">17 Hristo Botev St. floor 3, apt 12</textarea></td>
+                </tr>
+                <tr>
+                    <th id="city-th"><label for="city">City</label></th>
+                    <td colspan="1" headers="city-th"><input type="text" value="Kaspichan" name="city" id="city" /></td>
+                    <th colspan="1" id="state-th"><label for="state">State</label></th>
+                    <td colspan="1" headers="state-th"><input type="text" name="state" id="state" /></td>
+                </tr>
+                <tr>
+                    <th id="postal-code-th"><label for="postal-code">Zip/Postal Code</label></th>
+                    <td colspan="3" headers="postal-code-th"><input name="postal-code" id="postal-code" value="9325"></td>
+                </tr>
+                <tr>
+                    <th id="country-th"><label for="country">Country</label></th>
+                    <td colspan="3" headers="country-th">
+                        <select name="country" id="country">
+                            <option value="value1" selected>Bulgaria</option>
+                            <option value="value2">UK</option>
+                            <option value="value3">Brazil</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th id="phone-th"><label>Phone (<label for="country-code">country code</label>, <label for="area-code">area code</label>, <label for="number">number</label>)</label></th>
+                    <td colspan="3" headers="phone-th">
+                        (+
+                        <input type="text" value="359" name="country-code" id="country-code" />
+                        )
+                        <input type="text" value="88" name="area-code" id="area-code" />
+                        -
+                        <input type="text" value="8334343" name="number" id="number" />
+                    </td>
+                </tr>
+                <tr>
+                    <th id="email-th"><label for="email">E-mail</label></th>
+                    <td colspan="3" headers="email-th"><input type="email" value="nakov@kaspichan.org" name="email" id="email" /></td>
+                </tr>
+                <tr>
+                    <th id="birth-date-th"><label for="birth-date">Birth date</label></th>
+                    <td colspan="3" headers="birth-date-th">
+                        <label for="month">Month</label>
+                        <input type="text" value="06" name="month" id="month" />
+                        <label for="day">Day</label>
+                        <input type="text" value="14" name="day" id="day" />
+                        <label for="year">Year (4 digit)</label>
+                        <input type="text" value="1980" name="year" id="year" />
+                    </td>
+                </tr>
+                <tr>
+                    <th id="gender-th"><label for="gender">Gender</label></th>
+                    <td colspan="3" headers="gender-th">
+                        <select name="gender" id="gender">
+                            <option value="value1">Male</option>
+                            <option value="value2">Female</option>
+                            <option value="value3">To be discovered yet</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th id="start-date-th"><label>Starting date</label></th>
+                    <td colspan="3" headers="start-date-th">                        
+                        <input type="radio" name="date" id="spring-date" />
+                        <label for="spring-date">Spring 2006</label>
+                        <input type="radio" name="date" id="summer-date" />
+                        <label for="summer-date">Summer 2006</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th id="comments-th"><label for="comments">Comments/Questions</label></th>
+                    <td colspan="3" headers="comments-th">
+                        <textarea name="comments" id="comments">Please send me more information about the lodging</textarea>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">
+                        <div id="wrapper">
+                            <input type="submit" value="Submit"/>
+                            <input type="reset" value="Clear This Form"/>
+                        </div>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</body>
+</html>

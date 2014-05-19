@@ -1,0 +1,14 @@
+﻿span {
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right:60px;
+}
+
+table {
+    border-collapse:collapse;
+    border:1px solid;
+}
+
+td {
+    border:1px solid;
+}

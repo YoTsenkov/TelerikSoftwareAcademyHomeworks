@@ -16,7 +16,7 @@
     input[input.length - 1] = '(def answer ' + input[input.length - 1] + ')';
     function removeEmptyStrings(array) {
         var index = array.indexOf('');
-        while ((index != -1)) {
+        while ((index !== -1)) {
             array.splice(index, 1);
             index = array.indexOf('');
         }
@@ -137,3 +137,15 @@
 
     return functionsStorage['answer'];  
 }
+
+
+var wtf = [
+    '(def func 10)',
+'(def newFunc (+  func 2))',
+'(def sumFunc (+ func func newFunc 0 0 0))',
+  '  (* sumFunc 2)'
+
+]
+
+Solve(wtf);
+console.log();

@@ -1,0 +1,25 @@
+﻿main > table  {
+    border: 1px solid;    
+}
+
+form {   
+    float:left;   
+    padding-top:100px;
+    padding-left:20px;
+}
+fieldset {
+    border: 1px solid;
+}
+
+nav > div {
+    text-align:center;
+}
+
+input {
+    width: 68%;
+}
+
+
+table {
+    float:left;
+}

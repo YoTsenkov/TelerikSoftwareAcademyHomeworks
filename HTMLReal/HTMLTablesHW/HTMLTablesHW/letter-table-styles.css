@@ -1,0 +1,16 @@
+﻿table td {    
+    width:30px;
+    text-align:center;
+}
+
+#left-align {
+    text-align:left;
+}
+
+#right-align {
+    text-align:right;
+}
+
+.bottom-align {
+    vertical-align:bottom;
+}

@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Nested lists</title>
+    <link href="nested-lists-styles.css" rel="stylesheet" type="text/css" /> 
+</head>
+<body>
+    <section>
+        <div>Preceding Text</div>
+        <ol id="upper-roman">
+            <li>List Item 1
+                <ol id="lower-latin">
+                    <li>Nested Item 1.1</li>
+                    <li>Nested Item 1.2</li>
+                </ol>
+            </li>
+            <li>List Item 2
+                <ol id="decimal">
+                    <li>Nested Item 2.1</li>
+                    <li>Nested Item 2.2
+                        <ul id="circle">
+                            <li>Nested Item 2.2.1</li>
+                            <li>Nested Item 2.2.2                                
+                                <ul id="disc">
+                                    <li>Nested Item 2.2.2.1</li>
+                                    <li>Nested Item 2.2.2.2</li>
+                                </ul>
+                            </li>
+                            <li>Nested Item 2.2.3</li>
+                        </ul>
+                    </li>
+                    <li>Nested Item 2.3</li>
+                </ol>
+            </li>
+            <li>List Item 3                
+                <ul id="disc">
+                    <li>Nested Item 3.1</li>
+                    <li>Nested Item 3.2</li>
+                    <li>Nested Item 3.3</li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+</body>
+</html>

@@ -1,0 +1,48 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: dimgray;
+    font-family: Arial;
+}
+
+header h1 {
+    color: #A1A1A1;
+    font-family: 'Arial Unicode MS';
+    margin-left: 5px;
+    font-size: x-large;
+}
+
+th {
+    font-style: italic;
+    text-align: left;
+    vertical-align: top;
+    color: lightgrey;
+    font-family: Arial;
+    width: 150px;
+}
+
+table {
+    border-spacing: 15px;
+    margin-left: -10px;
+}
+
+.grey {
+    color: #A1A1A1;
+}
+
+.yellow {
+    color: #efeca9;
+}
+
+.red {
+    color: red;
+}
+
+.orange {
+    color: darkorange;
+}
+
+img {
+    width: 16px;
+    height: 100%;
+}
