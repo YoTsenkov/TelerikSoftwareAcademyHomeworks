@@ -2,7 +2,7 @@
 
 namespace Methods
 {
-    class Methods
+    public class Methods
     {
         public static double CalcTriangleArea(double firstSide, double secondSide, double thirdSide)
         {
