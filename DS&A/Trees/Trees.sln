@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeImplementation", "TreeImplementation\TreeImplementation.csproj", "{139B6A5C-759B-412F-8D23-391459F5C30C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.FindInTree", "01.FindInTree\01.FindInTree.csproj", "{EB92C4A5-75AD-4690-BB5E-2F54BF964DE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.TraverseDirectories", "02.TraverseDirectories\02.TraverseDirectories.csproj", "{F29AAE52-3452-4B03-B2AD-0C5927108D3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.FilesAndFoldersTree", "3.FilesAndFoldersTree\3.FilesAndFoldersTree.csproj", "{0490D798-B59E-433A-B2DF-D19B4907046E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{139B6A5C-759B-412F-8D23-391459F5C30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{139B6A5C-759B-412F-8D23-391459F5C30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{139B6A5C-759B-412F-8D23-391459F5C30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{139B6A5C-759B-412F-8D23-391459F5C30C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB92C4A5-75AD-4690-BB5E-2F54BF964DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB92C4A5-75AD-4690-BB5E-2F54BF964DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB92C4A5-75AD-4690-BB5E-2F54BF964DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB92C4A5-75AD-4690-BB5E-2F54BF964DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F29AAE52-3452-4B03-B2AD-0C5927108D3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F29AAE52-3452-4B03-B2AD-0C5927108D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F29AAE52-3452-4B03-B2AD-0C5927108D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F29AAE52-3452-4B03-B2AD-0C5927108D3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0490D798-B59E-433A-B2DF-D19B4907046E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0490D798-B59E-433A-B2DF-D19B4907046E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0490D798-B59E-433A-B2DF-D19B4907046E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0490D798-B59E-433A-B2DF-D19B4907046E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
