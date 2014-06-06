@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.DrawGraphics", "1.DrawGraphics\1.DrawGraphics.csproj", "{A5360493-7C55-4DA3-9467-1EA46089F504}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.BouncingCircle", "2.BouncingCircle\2.BouncingCircle.csproj", "{7CD55D86-0439-45B1-932F-898E0AFFD957}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5360493-7C55-4DA3-9467-1EA46089F504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5360493-7C55-4DA3-9467-1EA46089F504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5360493-7C55-4DA3-9467-1EA46089F504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5360493-7C55-4DA3-9467-1EA46089F504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CD55D86-0439-45B1-932F-898E0AFFD957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD55D86-0439-45B1-932F-898E0AFFD957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD55D86-0439-45B1-932F-898E0AFFD957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD55D86-0439-45B1-932F-898E0AFFD957}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
