@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/x-handlebars-template" id="course-template">
+    <table id="course-table" border="1">
+        <thead>
+        <tr>
+            <td>N</td>
+            <td>Title</td>
+            <td>Date #1</td>
+            <td>Date #2</td>
+        </tr>
+        </thead>
+        <tbody>
+        {{#courses}}
+        <tr>
+            <td>{{id}}</td>
+            <td>{{name}}</td>
+            <td>{{firstDate}}</td>
+            <td>{{secondDate}}</td>
+        </tr>
+        {{/courses}}
+        </tbody>
+    </table>
+</script>
+<script src="../libs/handlebars-v1.3.0.js"></script>
+<script src="1.handlebars-table.js"></script>
+</body>
+</html>
