@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="libs/jquery-ui-1.11.0/jquery-ui.min.css"/>
+</head>
+<body>
+<input id="user-input" type="text" placeholder="Enter your guess number here"/>
+<input id="submit-button" type="button" value="Submit guess"/>
+<input id="clear-button" type="button" value="Clear guess results"/>
+<input id="show-button" type="button" value="Show the number"/>
+<input id="restart-button" type="button" value="Start new game"/>
+<input id="show-scoreboard" type="button" value="Show top10 scores"/>
+<input id="clear-storage" type="button" value="Clear scores storage"/>
+
+<div id="invalid-number-dialog" title="Learn dat math BRO">
+    <div>Enter a valid 4-digit number</div>
+</div>
+<div id="show-number-dialog" title="LEL SUCKER">
+    <div></div>
+</div>
+<div id="nickname-dialog" title="YOU WON put it in your CV">
+    <div>Enter your nickname here</div>
+    <input id="nickname" type="text"/>
+</div>
+<div id="scores-dialog" title="Top10 amigos">
+    <table id="score-table">
+        <thead>
+        <tr>
+            <th>No</th>
+            <th>Nickname</th>
+            <th>Score</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div id="state-container"></div>
+<script src="libs/underscore.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="libs/jquery-ui-1.11.0/jquery-ui.min.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
