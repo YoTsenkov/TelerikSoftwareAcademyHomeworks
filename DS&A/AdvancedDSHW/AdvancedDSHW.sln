@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.PriorityQueue", "1.PriorityQueue\1.PriorityQueue.csproj", "{57054C1C-4B9B-430E-8CC3-1DAC8D71C3F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.FindRangeEfficiently", "2.FindRangeEfficiently\2.FindRangeEfficiently.csproj", "{36D835BB-2974-4196-8FB1-0333C7684867}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.TrieTestWIthHugeFile", "3.TrieTestWIthHugeFile\3.TrieTestWIthHugeFile.csproj", "{BD586B71-3B4C-471A-8CEF-8D1602FFAC23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{57054C1C-4B9B-430E-8CC3-1DAC8D71C3F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57054C1C-4B9B-430E-8CC3-1DAC8D71C3F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57054C1C-4B9B-430E-8CC3-1DAC8D71C3F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36D835BB-2974-4196-8FB1-0333C7684867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36D835BB-2974-4196-8FB1-0333C7684867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36D835BB-2974-4196-8FB1-0333C7684867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36D835BB-2974-4196-8FB1-0333C7684867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD586B71-3B4C-471A-8CEF-8D1602FFAC23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD586B71-3B4C-471A-8CEF-8D1602FFAC23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD586B71-3B4C-471A-8CEF-8D1602FFAC23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD586B71-3B4C-471A-8CEF-8D1602FFAC23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
