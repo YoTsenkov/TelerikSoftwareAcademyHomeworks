@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="students-stylesheet.xslt"?>
+<students xmlns ="urn:students">
+  <student>
+    <name>Hasinta</name>
+    <sex>Shemale</sex>
+    <birth-date>1990-01-01</birth-date>
+    <phone>088866666</phone>
+    <email>hasinta@org.wtf</email>
+    <course>Danish maths</course>
+    <specialty>Imbalanced</specialty>    
+    <faculty-number>2345</faculty-number>
+    <exams>
+      <exam>
+        <name>Hollywood wood</name>
+        <tutor>Italian Stalion</tutor>
+        <score>1337</score>
+      </exam>
+      <exam>
+        <name>Bulgarian wood</name>
+        <tutor>Mitio Djandaka</tutor>
+        <score>9000</score>
+      </exam>
+    </exams>    
+  </student>
+  <student>
+    <name>Shesa</name>
+    <sex>Female</sex>
+    <birth-date>2000-01-01</birth-date>
+    <phone>066688888</phone>
+    <email>she@org.wtf</email>
+    <course>Bulgarian maths</course>
+    <specialty>Decent driver</specialty>
+    <faculty-number>6788</faculty-number>
+    <exams>
+      <exam>
+        <name>Boiling frogs</name>
+        <tutor>Kenpachi</tutor>
+        <score>67</score>
+      </exam>
+      <exam>
+        <name>Digging graves</name>
+        <tutor>Dolf "The digger" Eastwood</tutor>
+        <score>99</score>
+      </exam>
+    </exams>
+  </student>
+</students>

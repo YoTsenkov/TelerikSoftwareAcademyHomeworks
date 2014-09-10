@@ -1,0 +1,14 @@
+Connection string for "Company" database: . (localhost)
+Connection string for "Cars" database: . (localhost)
+Relationships for "Company" database: (
+	employees-projects -> many-to-many
+	employees-employees -> one-to-many
+	departments-employees -> one-to-many
+	reports-employees -> one-to-many)
+Relationships for "Cars" database: (
+	cars-manufacturers -> one-to-many
+	cars-dealers -> one-to-many
+	cities-dealers -> many-to-many
+)
+Queries file: (Cars.Client/Queries.xml)
+XML result files: (Cars.Client/bin/debug (default))

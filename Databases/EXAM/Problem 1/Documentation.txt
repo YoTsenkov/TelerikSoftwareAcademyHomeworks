@@ -1,0 +1,4 @@
+employees-projects -> many-to-many
+employees-employees -> one-to-many
+departments-employees -> one-to-many
+reports-employees -> one-to-many
