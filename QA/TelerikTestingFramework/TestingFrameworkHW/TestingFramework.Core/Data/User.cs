@@ -1,7 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-namespace TestingFramework.Core.Data
+﻿namespace TestingFramework.Core.Data
 {
+    using System;
+
     public class User
     {
         public string Email { get; set; }

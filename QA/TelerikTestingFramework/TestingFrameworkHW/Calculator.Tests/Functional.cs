@@ -3,7 +3,6 @@
     using Calculator.Core.Pages;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using TestingFramework.Core;
-    using ArtOfTest.WebAii.Controls.HtmlControls;
 
     [TestClass]
     public class Functional : BaseTest

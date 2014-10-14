@@ -4,7 +4,7 @@
 
     public class MainPage
     {
-        private const string url = @"http://telerikacademy.com";
+        private const string Url = @"http://telerikacademy.com";
 
         private static MainPage instance;
 
@@ -31,7 +31,7 @@
 
         public void SearchFor(string text)
         {
-            Manager.Current.ActiveBrowser.NavigateTo(url);
+            Manager.Current.ActiveBrowser.NavigateTo(Url);
             this.Map.SearchBox.Text = text;
             this.Map.SearchButton.Click();
         }

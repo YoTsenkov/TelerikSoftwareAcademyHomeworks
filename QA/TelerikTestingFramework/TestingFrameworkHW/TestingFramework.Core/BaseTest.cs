@@ -61,6 +61,5 @@
                 Manager.Current.Dispose();
             }
         }
-
     }
 }

@@ -1,11 +1,12 @@
-﻿using ArtOfTest.Common.UnitTesting;
-using ArtOfTest.WebAii.Controls.HtmlControls;
-using ArtOfTest.WebAii.Core;
-namespace Calculator.Core.Pages
+﻿namespace Calculator.Core.Pages
 {
+    using ArtOfTest.Common.UnitTesting;
+    using ArtOfTest.WebAii.Controls.HtmlControls;
+    using ArtOfTest.WebAii.Core;
+
     public class MainPage
     {
-        private const string url = @"http://www.webestools.com/ftp/ybouane/scripts_tutorials/javascript/calculator/calculator.html";
+        private const string Url = @"http://www.webestools.com/ftp/ybouane/scripts_tutorials/javascript/calculator/calculator.html";
         private static MainPage instance;
 
         public static MainPage Instance
@@ -39,11 +40,11 @@ namespace Calculator.Core.Pages
 
         public MainPage ExecuteExpression(string expression)
         {
-            Manager.Current.ActiveBrowser.NavigateTo(url);
+            Manager.Current.ActiveBrowser.NavigateTo(Url);
             var inputs = expression.Split(' ');
             foreach (var input in inputs)
             {
-                ExecuteInput(input);
+                this.ExecuteInput(input);
             }
 
             return instance;
@@ -107,7 +108,7 @@ namespace Calculator.Core.Pages
                         break;
                     case "/": this.Map.Divide.Click();
                         break;
-                    case "=": this.Map.Equals.Click();
+                    case "=": this.Map.Calculate.Click();
                         break;
                     case ",": this.Map.Comma.Click();
                         break;

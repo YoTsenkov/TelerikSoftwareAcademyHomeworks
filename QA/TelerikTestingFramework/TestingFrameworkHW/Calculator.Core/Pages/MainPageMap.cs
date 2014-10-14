@@ -12,9 +12,9 @@
                 return this.Find.ByAttributes<HtmlInputButton>("value=CE");
             }
         }
+
         public HtmlInputButton Delete
         {
-
             get
             {
                 return this.Find.ByAttributes<HtmlInputButton>("value=←");
@@ -61,7 +61,7 @@
             }
         }
 
-        public HtmlInputButton Equals
+        public HtmlInputButton Calculate
         {
             get
             {

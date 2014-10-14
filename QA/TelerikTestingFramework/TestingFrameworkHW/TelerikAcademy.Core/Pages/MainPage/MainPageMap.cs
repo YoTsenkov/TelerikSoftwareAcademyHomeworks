@@ -20,6 +20,5 @@
                 return this.Find.ById<HtmlInputSubmit>("SearchButton");
             }
         }
-
     }
 }
