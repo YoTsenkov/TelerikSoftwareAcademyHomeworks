@@ -61,7 +61,6 @@
     <Compile Include="AssertHtmlControlExtensions.cs" />
     <Compile Include="BaseElementMap.cs" />
     <Compile Include="BaseTest.cs" />
-    <Compile Include="Data\User.cs" />
     <Compile Include="HtmlElementExpressionExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
