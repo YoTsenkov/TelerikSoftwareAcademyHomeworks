@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Core", "Calculat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Tests", "Calculator.Tests\Calculator.Tests.csproj", "{4C640FBE-F8B3-46E8-85CB-96E8AA0CC20C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KendoDemos.Core", "KendoDemos.Core\KendoDemos.Core.csproj", "{8088446A-BB6A-437F-AF3D-0DDB38CD24A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KendoDemos.Tests", "KendoDemos.Tests\KendoDemos.Tests.csproj", "{5FA93254-45B9-43C1-AE16-35E03F34C48A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{4C640FBE-F8B3-46E8-85CB-96E8AA0CC20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C640FBE-F8B3-46E8-85CB-96E8AA0CC20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C640FBE-F8B3-46E8-85CB-96E8AA0CC20C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8088446A-BB6A-437F-AF3D-0DDB38CD24A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8088446A-BB6A-437F-AF3D-0DDB38CD24A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8088446A-BB6A-437F-AF3D-0DDB38CD24A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8088446A-BB6A-437F-AF3D-0DDB38CD24A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FA93254-45B9-43C1-AE16-35E03F34C48A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FA93254-45B9-43C1-AE16-35E03F34C48A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FA93254-45B9-43C1-AE16-35E03F34C48A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FA93254-45B9-43C1-AE16-35E03F34C48A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

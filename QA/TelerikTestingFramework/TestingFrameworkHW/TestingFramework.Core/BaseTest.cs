@@ -40,7 +40,6 @@
                 mySettings.Web.Browser = BrowserExecutionType.InternetExplorer;
                 mySettings.Web.DefaultBrowser = BrowserType.InternetExplorer;                
                 mySettings.Web.RecycleBrowser = true;
-                mySettings.ExecutionDelay = 1000;
                 var manager = new Manager(mySettings);
                 manager.Start();
             }
