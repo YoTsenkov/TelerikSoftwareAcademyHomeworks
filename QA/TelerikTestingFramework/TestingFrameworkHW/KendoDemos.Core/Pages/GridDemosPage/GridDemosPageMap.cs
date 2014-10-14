@@ -17,7 +17,7 @@
             }
         }
 
-        public KendoGrid GridFromTable
+        public KendoGrid CurrentGrid
         {
             get
             {

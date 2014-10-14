@@ -31,7 +31,7 @@
             KendoDemosPage.Instance.NavigateToGridDemo();
 
             GridDemosPage.Instance.SelectInitializeFromTableDemo();
-            var grid = GridDemosPage.Instance.Map.GridFromTable;
+            var grid = GridDemosPage.Instance.Map.CurrentGrid;
             var actualGridRows = grid.DataItems.Count - 1;
             var actualGridColumns = grid.DataItems[0].Cells.Count;
 
