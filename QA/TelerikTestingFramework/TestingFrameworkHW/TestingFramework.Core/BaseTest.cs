@@ -8,12 +8,10 @@
     {
         public virtual void TestInit()
         {
-
         }
 
         public virtual void TestCleanUp()
         {
-
         }
 
         [TestInitialize]

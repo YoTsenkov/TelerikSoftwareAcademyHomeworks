@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelerikAcademy.Core", "Tele
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelerikAcademy.Tests", "TelerikAcademy.Tests\TelerikAcademy.Tests.csproj", "{61866234-9C89-4E55-BE4F-2A072B53AA1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Core", "Calculator.Core\Calculator.Core.csproj", "{6D541556-C0A1-4C0F-88A7-ACEF39F569BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Tests", "Calculator.Tests\Calculator.Tests.csproj", "{4C640FBE-F8B3-46E8-85CB-96E8AA0CC20C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{61866234-9C89-4E55-BE4F-2A072B53AA1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61866234-9C89-4E55-BE4F-2A072B53AA1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61866234-9C89-4E55-BE4F-2A072B53AA1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D541556-C0A1-4C0F-88A7-ACEF39F569BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D541556-C0A1-4C0F-88A7-ACEF39F569BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D541556-C0A1-4C0F-88A7-ACEF39F569BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D541556-C0A1-4C0F-88A7-ACEF39F569BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C640FBE-F8B3-46E8-85CB-96E8AA0CC20C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C640FBE-F8B3-46E8-85CB-96E8AA0CC20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C640FBE-F8B3-46E8-85CB-96E8AA0CC20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C640FBE-F8B3-46E8-85CB-96E8AA0CC20C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
