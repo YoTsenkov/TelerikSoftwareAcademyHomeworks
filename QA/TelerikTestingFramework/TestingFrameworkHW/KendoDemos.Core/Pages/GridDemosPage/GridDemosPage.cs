@@ -30,48 +30,59 @@
             this.Map.InitializeFromTable.Click();
         }
 
-        public void SortByCarMake(bool ascending)
+        public GridDemosPageValidator Validator
         {
-            this.Map.CarMakeColumn.Click();
-            if (!ascending)
+            get
             {
-                this.Map.CarMakeColumn.Click();
+                return new GridDemosPageValidator();
             }
-        }
-
-        public void SortByCarModel(bool ascending)
+        }        
+    
+        public void SortBy(GridColumnNames columnName, bool ascending)
         {
-            this.Map.CarModelColumn.Click();
-            if (!ascending)
+            switch (columnName)
             {
-                this.Map.CarModelColumn.Click();
+                case GridColumnNames.CarMaker:
+                    this.Map.CarMakeColumn.Click();
+                    break;
+                case GridColumnNames.CarModel:
+                    this.Map.CarModelColumn.Click();
+                    break;
+                case GridColumnNames.Year:
+                    this.Map.YearColumn.Click();
+                    break;
+                case GridColumnNames.Category:
+                    this.Map.CategoryColumn.Click();
+                    break;
+                case GridColumnNames.AirConditioner:
+                    this.Map.AirConditionerColumn.Click();
+                    break;
+                default:
+                    break;
             }
-        }
 
-        public void SortByYear(bool ascending)
-        {
-            this.Map.YearColumn.Click();
             if (!ascending)
             {
-                this.Map.YearColumn.Click();
-            }
-        }
-
-        public void SortByCategory(bool ascending)
-        {
-            this.Map.CategoryColumn.Click();
-            if (!ascending)
-            {
-                this.Map.CategoryColumn.Click();
-            }
-        }
-
-        public void SortByAirConditioner(bool ascending)
-        {
-            this.Map.AirConditionerColumn.Click();
-            if (!ascending)
-            {
-                this.Map.AirConditionerColumn.Click();
+                switch (columnName)
+                {
+                    case GridColumnNames.CarMaker:
+                        this.Map.CarMakeColumn.Click();
+                        break;
+                    case GridColumnNames.CarModel:
+                        this.Map.CarModelColumn.Click();
+                        break;
+                    case GridColumnNames.Year:
+                        this.Map.YearColumn.Click();
+                        break;
+                    case GridColumnNames.Category:
+                        this.Map.CategoryColumn.Click();
+                        break;
+                    case GridColumnNames.AirConditioner:
+                        this.Map.AirConditionerColumn.Click();
+                        break;
+                    default:
+                        break;
+                }
             }
         }
     }

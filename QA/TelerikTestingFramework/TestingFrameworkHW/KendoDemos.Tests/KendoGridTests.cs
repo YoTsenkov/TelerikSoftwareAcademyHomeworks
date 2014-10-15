@@ -42,134 +42,113 @@
         }
 
         [TestMethod]
-        public void CanSortByCarMakeAscending()
+        public void CanSortByCarMakerAscending()
         {
-            const string ExpectedCarMaker = "Alfa Romeo";
             DemosPage.Instance.NavigateToKendoDemos();
             KendoDemosPage.Instance.NavigateToGridDemo();
             GridDemosPage.Instance.SelectInitializeFromTableDemo();
-            GridDemosPage.Instance.SortByCarMake(true);
-            var firstCarMaker = GridDemosPage.Instance.Map.CurrentGrid.DataItems[0][0].TextContent;
+            GridDemosPage.Instance.SortBy(GridColumnNames.CarMaker, true);
 
-            Assert.AreEqual(ExpectedCarMaker, firstCarMaker);
-
+            GridDemosPage.Instance.Validator.AssertSorting(GridColumnNames.CarMaker, true);
         }
 
         [TestMethod]
-        public void CanSortByCarMakeDescending()
+        public void CanSortByCarMakerDescending()
         {
-            const string ExpectedCarMaker = "VW";
             DemosPage.Instance.NavigateToKendoDemos();
             KendoDemosPage.Instance.NavigateToGridDemo();
             GridDemosPage.Instance.SelectInitializeFromTableDemo();
-            GridDemosPage.Instance.SortByCarMake(false);
-            var firstCarMaker = GridDemosPage.Instance.Map.CurrentGrid.DataItems[0][0].TextContent;
+            GridDemosPage.Instance.SortBy(GridColumnNames.CarMaker, false);
 
-            Assert.AreEqual(ExpectedCarMaker, firstCarMaker);
+            GridDemosPage.Instance.Validator.AssertSorting(GridColumnNames.CarMaker, false);
         }
 
         [TestMethod]
         public void CanSortByCarModelAscending()
         {
-            const string ExpectedCarModel = "159";
             DemosPage.Instance.NavigateToKendoDemos();
             KendoDemosPage.Instance.NavigateToGridDemo();
             GridDemosPage.Instance.SelectInitializeFromTableDemo();
-            GridDemosPage.Instance.SortByCarModel(true);
-            var firstCarModel = GridDemosPage.Instance.Map.CurrentGrid.DataItems[0][1].TextContent;
+            GridDemosPage.Instance.SortBy(GridColumnNames.CarModel, true);
 
-            Assert.AreEqual(ExpectedCarModel, firstCarModel);
+            GridDemosPage.Instance.Validator.AssertSorting(GridColumnNames.CarModel, true);
         }
 
         [TestMethod]
         public void CanSortByCarModelDescending()
         {
-            const string ExpectedCarModel = "Ypsilon";
             DemosPage.Instance.NavigateToKendoDemos();
             KendoDemosPage.Instance.NavigateToGridDemo();
             GridDemosPage.Instance.SelectInitializeFromTableDemo();
-            GridDemosPage.Instance.SortByCarModel(false);
-            var firstCarModel = GridDemosPage.Instance.Map.CurrentGrid.DataItems[0][1].TextContent;
+            GridDemosPage.Instance.SortBy(GridColumnNames.CarModel, false);
 
-            Assert.AreEqual(ExpectedCarModel, firstCarModel);
+            GridDemosPage.Instance.Validator.AssertSorting(GridColumnNames.CarModel, false);
         }
 
         [TestMethod]
         public void CanSortByYearAscending()
         {
-            const string ExpectedYear = "2001";
             DemosPage.Instance.NavigateToKendoDemos();
             KendoDemosPage.Instance.NavigateToGridDemo();
             GridDemosPage.Instance.SelectInitializeFromTableDemo();
-            GridDemosPage.Instance.SortByYear(true);
-            var firstYear = GridDemosPage.Instance.Map.CurrentGrid.DataItems[0][2].TextContent;
+            GridDemosPage.Instance.SortBy(GridColumnNames.Year, true);
 
-            Assert.AreEqual(ExpectedYear, firstYear);
+            GridDemosPage.Instance.Validator.AssertSorting(GridColumnNames.Year, true);
         }
 
         [TestMethod]
         public void CanSortByYearDescending()
         {
-            const string ExpectedYear = "2013";
             DemosPage.Instance.NavigateToKendoDemos();
             KendoDemosPage.Instance.NavigateToGridDemo();
             GridDemosPage.Instance.SelectInitializeFromTableDemo();
-            GridDemosPage.Instance.SortByYear(false);
-            var firstYear = GridDemosPage.Instance.Map.CurrentGrid.DataItems[0][2].TextContent;
+            GridDemosPage.Instance.SortBy(GridColumnNames.Year, false);
 
-            Assert.AreEqual(ExpectedYear, firstYear);
+            GridDemosPage.Instance.Validator.AssertSorting(GridColumnNames.Year, false);
         }
 
         [TestMethod]
         public void CanSortByCategoryAscending()
         {
-            const string ExpectedCategory = "Hatchback";
             DemosPage.Instance.NavigateToKendoDemos();
             KendoDemosPage.Instance.NavigateToGridDemo();
             GridDemosPage.Instance.SelectInitializeFromTableDemo();
-            GridDemosPage.Instance.SortByCategory(true);
-            var firstCategory = GridDemosPage.Instance.Map.CurrentGrid.DataItems[0][3].TextContent;
+            GridDemosPage.Instance.SortBy(GridColumnNames.Category, true);
 
-            Assert.AreEqual(ExpectedCategory, firstCategory);
+            GridDemosPage.Instance.Validator.AssertSorting(GridColumnNames.Category, true);
         }
 
         [TestMethod]
         public void CanSortByCategoryDescending()
         {
-            const string ExpectedCategory = "SUV";
             DemosPage.Instance.NavigateToKendoDemos();
             KendoDemosPage.Instance.NavigateToGridDemo();
             GridDemosPage.Instance.SelectInitializeFromTableDemo();
-            GridDemosPage.Instance.SortByCategory(false);
-            var firstCategory = GridDemosPage.Instance.Map.CurrentGrid.DataItems[0][3].TextContent;
+            GridDemosPage.Instance.SortBy(GridColumnNames.Category, false);
 
-            Assert.AreEqual(ExpectedCategory, firstCategory);
+            GridDemosPage.Instance.Validator.AssertSorting(GridColumnNames.Category, false);
         }
 
         [TestMethod]
         public void CanSortByAirConditionerAscending()
         {
-            const string ExpectedAirConditioner = "No";
             DemosPage.Instance.NavigateToKendoDemos();
             KendoDemosPage.Instance.NavigateToGridDemo();
             GridDemosPage.Instance.SelectInitializeFromTableDemo();
-            GridDemosPage.Instance.SortByAirConditioner(true);
-            var firstAirConditioner = GridDemosPage.Instance.Map.CurrentGrid.DataItems[0][4].TextContent;
+            GridDemosPage.Instance.SortBy(GridColumnNames.AirConditioner, true);
 
-            Assert.AreEqual(ExpectedAirConditioner, firstAirConditioner);
+            GridDemosPage.Instance.Validator.AssertSorting(GridColumnNames.AirConditioner, true);
         }
 
         [TestMethod]
         public void CanSortByAirConditionerDescending()
         {
-            const string ExpectedAirConditioner = "Yes";
             DemosPage.Instance.NavigateToKendoDemos();
             KendoDemosPage.Instance.NavigateToGridDemo();
             GridDemosPage.Instance.SelectInitializeFromTableDemo();
-            GridDemosPage.Instance.SortByAirConditioner(false);
-            var firstAirConditioner = GridDemosPage.Instance.Map.CurrentGrid.DataItems[0][4].TextContent;
+            GridDemosPage.Instance.SortBy(GridColumnNames.AirConditioner, false);
 
-            Assert.AreEqual(ExpectedAirConditioner, firstAirConditioner);
+            GridDemosPage.Instance.Validator.AssertSorting(GridColumnNames.AirConditioner, false);
         }
     }
 }

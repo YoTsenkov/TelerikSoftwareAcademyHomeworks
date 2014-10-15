@@ -64,8 +64,10 @@
   <ItemGroup>
     <Compile Include="Pages\DemosPage\DemosPage.cs" />
     <Compile Include="Pages\DemosPage\DemosPageMap.cs" />
+    <Compile Include="Pages\GridDemosPage\GridColumnNames.cs" />
     <Compile Include="Pages\GridDemosPage\GridDemosPage.cs" />
     <Compile Include="Pages\GridDemosPage\GridDemosPageMap.cs" />
+    <Compile Include="Pages\GridDemosPage\GridDemosPageValidator.cs" />
     <Compile Include="Pages\KendoDemosPage\KendoDemosPage.cs" />
     <Compile Include="Pages\KendoDemosPage\KendoDemosPageMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
