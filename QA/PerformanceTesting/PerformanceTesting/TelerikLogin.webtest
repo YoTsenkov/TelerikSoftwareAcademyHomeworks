@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="TelerikLogin" Id="a658f171-2243-47d0-8ef3-6365b2a5e528" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.62ac498d-f917-4aab-b8cd-01c70f9ae0a6.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="da524d5b-82e9-4a09-9ef1-8334426ce987" Version="1.1" Url="http://www.telerik.com/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://www.telerik.com/" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="ee2bb1d0-657c-41b5-9e39-7b5ab2acbd29" Version="1.1" Url="http://229097002.log.optimizely.com/event" ThinkTime="9" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.telerik.com/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="a" Value="229097002" RecordedValue="229097002" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="d" Value="229097002" RecordedValue="229097002" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="y" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="src" Value="js" RecordedValue="js" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="s231842852" Value="ff" RecordedValue="ff" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="s231947722" Value="direct" RecordedValue="direct" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="s232031415" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="n" Value="http%3A%2F%2Fwww.telerik.com%2F" RecordedValue="http%3A%2F%2Fwww.telerik.com%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u" Value="oeu1415535995726r0.41546419728489103" RecordedValue="oeu1415535995726r0.41546419728489103" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="wxhr" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="t" Value="1415566328576" RecordedValue="1415566328576" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="f" Value="1469994211,2032500120,2074870295,2099500470,2102420102,2114210260,2145410051" RecordedValue="1469994211,2032500120,2074870295,2099500470,2102420102,2114210260,2145410051" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="g" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="40050990-6642-43dc-8d75-0f8085d1cfd3" Version="1.1" Url="http://dtzbdy9anri2p.cloudfront.net/telerik/fonts/FaktSlabPro-Blond.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.telerik.com/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="5bfb89b5-90c9-4698-87bc-49f33d91833b" Version="1.1" Url="http://dtzbdy9anri2p.cloudfront.net/telerik/fonts/FaktSlabPro-Medium.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.telerik.com/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="f3dec783-0273-4d3e-b1e4-f3d2315beef5" Version="1.1" Url="http://dtzbdy9anri2p.cloudfront.net/telerik/fonts/MetricWeb-Semibold.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.telerik.com/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="7a7663e1-673e-45e6-a33d-42922b8bc0a5" Version="1.1" Url="http://dtzbdy9anri2p.cloudfront.net/telerik/iconfont/dist/tlrk-icon-font-52e0b522b66ef183b8b017456f274e79.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.telerik.com/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="f7c312e1-6b3e-4bd6-a3f7-e150fe9e9e7d" Version="1.1" Url="http://dtzbdy9anri2p.cloudfront.net/telerik/fonts/FaktSlabPro-Light.eot" ThinkTime="5" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.telerik.com/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+    </Request>
+    <Request Method="GET" Guid="9a9587b7-3e40-41b9-b6be-13b65d2dcebb" Version="1.1" Url="http://www.telerik.com/account" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://www.telerik.com/login/v2/telerik?ReturnUrl=https%3a%2f%2fidentity.telerik.com%2fv2%2foauth%2ftelerik%2fauthorize%3fclient_id%3dhttp%253a%252f%252fwww.lean.telerik.com%26redirect_uri%3dhttp%253a%252f%252fwww.telerik.com%252faccount%26response_type%3dcode%26state%3dC432102B73B3E119D38C3DE082AAC5D97CF4B165701045154919663AD39BEF9F" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="cdec8811-521a-43e2-9bd6-6e002d27a482" Version="1.1" Url="https://229097002.log.optimizely.com/event" ThinkTime="4" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.telerik.com/login/v2/telerik?ReturnUrl=https%3a%2f%2fidentity.telerik.com%2fv2%2foauth%2ftelerik%2fauthorize%3fclient_id%3dhttp%253a%252f%252fwww.lean.telerik.com%26redirect_uri%3dhttp%253a%252f%252fwww.telerik.com%252faccount%26response_type%3dcode%26state%3dC432102B73B3E119D38C3DE082AAC5D97CF4B165701045154919663AD39BEF9F" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="a" Value="229097002" RecordedValue="229097002" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="d" Value="229097002" RecordedValue="229097002" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="y" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="src" Value="js" RecordedValue="js" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="s231842852" Value="ff" RecordedValue="ff" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="s231947722" Value="direct" RecordedValue="direct" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="s232031415" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="n" Value="https%3A%2F%2Fwww.telerik.com%2Flogin%2Fv2%2Ftelerik%3FReturnUrl%3Dhttps%253a%252f%252fidentity.telerik.com%252fv2%252foauth%252ftelerik%252fauthorize%253fclient_id%253dhttp%25253a%25252f%25252fwww.lean.telerik.com%2526redirect_uri%253dhttp%25253a%25252f%25252fwww.telerik.com%25252faccount%2526response_type%253dcode%2526state%253dC432102B73B3E119D38C3DE082AAC5D97CF4B165701045154919663AD39BEF9F" RecordedValue="https%3A%2F%2Fwww.telerik.com%2Flogin%2Fv2%2Ftelerik%3FReturnUrl%3Dhttps%253a%252f%252fidentity.telerik.com%252fv2%252foauth%252ftelerik%252fauthorize%253fclient_id%253dhttp%25253a%25252f%25252fwww.lean.telerik.com%2526redirect_uri%253dhttp%25253a%25252f%25252fwww.telerik.com%25252faccount%2526response_type%253dcode%2526state%253dC432102B73B3E119D38C3DE082AAC5D97CF4B165701045154919663AD39BEF9F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u" Value="oeu1415535995726r0.41546419728489103" RecordedValue="oeu1415535995726r0.41546419728489103" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="wxhr" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="t" Value="1415566348360" RecordedValue="1415566348360" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="f" Value="1469994211,2032500120,2074870295,2099500470,2102420102,2114210260,2145410051" RecordedValue="1469994211,2032500120,2074870295,2099500470,2102420102,2114210260,2145410051" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="g" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="4397cc60-4460-4572-914b-c4f66304df3c" Version="1.1" Url="https://dtzbdy9anri2p.cloudfront.net/telerik/fonts/MetricWeb-Semibold.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.telerik.com/login/v2/telerik?ReturnUrl=https%3a%2f%2fidentity.telerik.com%2fv2%2foauth%2ftelerik%2fauthorize%3fclient_id%3dhttp%253a%252f%252fwww.lean.telerik.com%26redirect_uri%3dhttp%253a%252f%252fwww.telerik.com%252faccount%26response_type%3dcode%26state%3dC432102B73B3E119D38C3DE082AAC5D97CF4B165701045154919663AD39BEF9F" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="99bb68dd-5743-4d92-91a0-2105c510bb95" Version="1.1" Url="https://dtzbdy9anri2p.cloudfront.net/telerik/iconfont/dist/tlrk-icon-font-52e0b522b66ef183b8b017456f274e79.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.telerik.com/login/v2/telerik?ReturnUrl=https%3a%2f%2fidentity.telerik.com%2fv2%2foauth%2ftelerik%2fauthorize%3fclient_id%3dhttp%253a%252f%252fwww.lean.telerik.com%26redirect_uri%3dhttp%253a%252f%252fwww.telerik.com%252faccount%26response_type%3dcode%26state%3dC432102B73B3E119D38C3DE082AAC5D97CF4B165701045154919663AD39BEF9F" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="d8c4d429-9a38-43c6-bb3f-0ce799503b98" Version="1.1" Url="https://dtzbdy9anri2p.cloudfront.net/telerik/fonts/FaktSlabPro-Medium.eot" ThinkTime="9" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.telerik.com/login/v2/telerik?ReturnUrl=https%3a%2f%2fidentity.telerik.com%2fv2%2foauth%2ftelerik%2fauthorize%3fclient_id%3dhttp%253a%252f%252fwww.lean.telerik.com%26redirect_uri%3dhttp%253a%252f%252fwww.telerik.com%252faccount%26response_type%3dcode%26state%3dC432102B73B3E119D38C3DE082AAC5D97CF4B165701045154919663AD39BEF9F" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://www.telerik.com/" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam3.ReturnUrl" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?ReturnUrl=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+    </Request>
+    <Request Method="POST" Guid="91f884a4-543c-4e34-8778-8b160c79d57e" Version="1.1" Url="https://identity.telerik.com/v2/oauth/signin" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://www.telerik.com/account" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="ade91d32-d280-4d50-951d-505e1313933e" Version="1.1" Url="http://229097002.log.optimizely.com/event" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.telerik.com/account" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="a" Value="229097002" RecordedValue="229097002" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="d" Value="229097002" RecordedValue="229097002" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="y" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="src" Value="js" RecordedValue="js" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="s231842852" Value="ff" RecordedValue="ff" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="s231947722" Value="direct" RecordedValue="direct" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="s232031415" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="n" Value="http%3A%2F%2Fwww.telerik.com%2Faccount" RecordedValue="http%3A%2F%2Fwww.telerik.com%2Faccount" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u" Value="oeu1415535995726r0.41546419728489103" RecordedValue="oeu1415535995726r0.41546419728489103" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="wxhr" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="t" Value="1415566371337" RecordedValue="1415566371337" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="f" Value="1469994211,2032500120,2074870295,2099500470,2102420102,2114210260,2145410051" RecordedValue="1469994211,2032500120,2074870295,2099500470,2102420102,2114210260,2145410051" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="g" Value="280318724" RecordedValue="280318724" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="POST" Guid="90327348-ba9c-419b-b728-227118c4ea8f" Version="1.1" Url="http://www.telerik.com/account/ClientServices/LicenseBannerService.svc/GetBannerContent" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://www.telerik.com/account" />
+          </Headers>
+          <StringHttpBody ContentType="application/json; charset=utf-8" InsertByteOrderMark="False">
+          </StringHttpBody>
+        </Request>
+        <Request Method="GET" Guid="a866b3e6-f4d3-4897-8c4d-d5374f705b33" Version="1.1" Url="http://www.telerik-web-assets.com/cache/22e54f9dbe2d245986165e9df0c96028954b0d26/tlrk-external/dist/fonts/MetricWeb-Semibold.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.telerik.com/account" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="b2b81642-95e0-4bd2-8930-7641ca492b36" Version="1.1" Url="http://www.telerik.com/services/clientsideservice/Navigation/GetLoginInfo" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Content-Type" Value="application/json; charset=utf-8" />
+            <Header Name="Referer" Value="http://www.telerik.com/account" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="sessionId" Value="%22c0c4695b-35b8-4dd4-8386-e4821cf2902f%22" RecordedValue="%22c0c4695b-35b8-4dd4-8386-e4821cf2902f%22" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="siteName" Value="null" RecordedValue="null" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="https://www.telerik.com/login/v2/telerik?ReturnUrl=https%3a%2f%2fidentity.telerik.com%2fv2%2foauth%2ftelerik%2fauthorize%3fclient_id%3dhttp%253a%252f%252fwww.lean.telerik.com%26redirect_uri%3dhttp%253a%252f%252fwww.telerik.com%252faccount%26response_type%3dcode%26state%3dC432102B73B3E119D38C3DE082AAC5D97CF4B165701045154919663AD39BEF9F" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam1.gn" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?gn=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2.continue" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;continue=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="ReturnUrl" Value="{{QueryStringParam3.ReturnUrl}}" RecordedValue="https%3a%2f%2fidentity.telerik.com%2fv2%2foauth%2ftelerik%2fauthorize%3fclient_id%3dhttp%253a%252f%252fwww.lean.telerik.com%26redirect_uri%3dhttp%253a%252f%252fwww.telerik.com%252faccount%26response_type%3dcode%26state%3dC432102B73B3E119D38C3DE082AAC5D97CF4B165701045154919663AD39BEF9F" CorrelationBinding="{{QueryStringParam3.ReturnUrl}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="ScriptManager_TSM" Value=";;Telerik.Sitefinity.Resources:de-DE:21f43811-011f-4c4d-ada8-6ca099c15a3d:83eb063b;Telerik.Sitefinity:de-DE:50b5bd64-c6d1-4a0f-b0ce-e7f8e3bdd5f8:993d8e92:5b182b17;Web.SitefinityExtensions.GSA, Version=1.0.14133.11, Culture=neutral, PublicKeyToken=null:de-DE:88901d1b-3371-4d53-b6a3-413842c13cc4:ee5e0fe:4e23a708:938f4e9a;;Web.Widgets.Users, Version=1.0.13259.1, Culture=neutral, PublicKeyToken=null:en-US:bd388aa8-421f-49db-8d0a-6a6c49ff5816:97a0e5ba" RecordedValue=";;Telerik.Sitefinity.Resources:de-DE:21f43811-011f-4c4d-ada8-6ca099c15a3d:83eb063b;Telerik.Sitefinity:de-DE:50b5bd64-c6d1-4a0f-b0ce-e7f8e3bdd5f8:993d8e92:5b182b17;Web.SitefinityExtensions.GSA, Version=1.0.14133.11, Culture=neutral, PublicKeyToken=null:de-DE:88901d1b-3371-4d53-b6a3-413842c13cc4:ee5e0fe:4e23a708:938f4e9a;;Web.Widgets.Users, Version=1.0.13259.1, Culture=neutral, PublicKeyToken=null:en-US:bd388aa8-421f-49db-8d0a-6a6c49ff5816:97a0e5ba" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl07_TSSM" Value=";Telerik.Sitefinity.Resources, Version=7.2.5317.0, Culture=neutral, PublicKeyToken=b28c218413bdf563:en:21f43811-011f-4c4d-ada8-6ca099c15a3d:7a90d6a" RecordedValue=";Telerik.Sitefinity.Resources, Version=7.2.5317.0, Culture=neutral, PublicKeyToken=b28c218413bdf563:en:21f43811-011f-4c4d-ada8-6ca099c15a3d:7a90d6a" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTTARGET" Value="{{$HIDDEN1.__EVENTTARGET}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTARGUMENT" Value="{{$HIDDEN1.__EVENTARGUMENT}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATE" Value="{{$HIDDEN1.__VIEWSTATE}}" RecordedValue="/wEPDwULLTEwNDI1NjM0ODJkGAYFM2N0bDAwJEdlbmVyYWxDb250ZW50JEMwNDkkY3RsMDAkY3RsMDAkbXZEaXNwbGF5TW9kZQ8PZGZkBTdjdGwwMCRHZW5lcmFsQ29udGVudCRDMDQ5JGN0bDAwJGN0bDAwJG12Q29sbGVjdFVzZXJEYXRhDw9kZmQFPGN0bDAwJEdlbmVyYWxDb250ZW50JEMwMzkkY3RsMDAkY3RsMDAkZHluYW1pY0NvbnRlbnRMaXN0Vmlldw8UKwAFZBQrAABkFgIeAl9jZmRkBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAgU8Y3RsMDAkR2VuZXJhbENvbnRlbnQkQzAzOSRjdGwwMCRjdGwwMCRkeW5hbWljQ29udGVudExpc3RWaWV3BTxjdGwwMCRHZW5lcmFsQ29udGVudCRDMDM4JGN0bDAwJGN0bDAwJGR5bmFtaWNDb250ZW50TGlzdFZpZXcFNmN0bDAwJEdlbmVyYWxDb250ZW50JEMwNDckY3RsMDAkY3RsMDAkd2lkZ2V0TWVzc2FnZXNNdg8PZGZkBTxjdGwwMCRHZW5lcmFsQ29udGVudCRDMDM4JGN0bDAwJGN0bDAwJGR5bmFtaWNDb250ZW50TGlzdFZpZXcPFCsABWQUKwAAZBYCHwBmZGSqLfrA6oeyWg8LJUjo+qNLoSdjNg==" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTVALIDATION" Value="{{$HIDDEN1.__EVENTVALIDATION}}" RecordedValue="/wEdAA3UvQ50QthDG31Pwib3prnZ+cnlAjao1pxP8D8eH8arO5FBcFoml0WVMCIpy7p5bHFTndoFE1MheUPU+l9CZMXcWz2XfkWd9FGCORwB5mdNtQextUzVjSQI/MaF/RUP3zeIa4idtSb1/NdcoLyHMy8mk1icJMs1ps3h/AFf1hNe8ZXxNWaKfH9/u5SzYIrIL9xemDwVha0DAed+uhmXBaNQ5yGRkSj06TAztkv/IPxPD9cx8uIVYQcZXYlsDCaKcTOeGBrfYiOyCywZ3SY89tCJnX9K5sGb0HYmuU6bSBP+i3XvL60=" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$GeneralContent$T73A12E0A147$ctl00$ctl00$txtKeyword" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00_GeneralContent_C039_ctl00_ctl00_dynamicContentListView_ClientState" Value="{{$HIDDEN1.ctl00_GeneralContent_C039_ctl00_ctl00_dynamicContentListView_ClientState}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="username" Value="{{Users.db#csv.ususername}}" RecordedValue="yotsenkov@gmail.com" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="password" Value="{{Users.db#csv.password}}" RecordedValue="hon4ever" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$GeneralContent$C048$ctl00$ctl00$hfSighInUrl" Value="{{$HIDDEN1.ctl00$GeneralContent$C048$ctl00$ctl00$hfSighInUrl}}" RecordedValue="https://identity.telerik.com/v2/oauth/signin?ReturnUrl=https%3a%2f%2fidentity.telerik.com%2fv2%2foauth%2ftelerik%2fauthorize%3fclient_id%3dhttp%253a%252f%252fwww.lean.telerik.com%26redirect_uri%3dhttp%253a%252f%252fwww.telerik.com%252faccount%26response_type%3dcode%26state%3dC432102B73B3E119D38C3DE082AAC5D97CF4B165701045154919663AD39BEF9F" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00_GeneralContent_C038_ctl00_ctl00_dynamicContentListView_ClientState" Value="{{$HIDDEN1.ctl00_GeneralContent_C038_ctl00_ctl00_dynamicContentListView_ClientState}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$GeneralContent$C047$ctl00$ctl00$mailTextBox" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$GeneralContent$C049$ctl00$ctl00$NoBotValidation$ctl00$ctl00$tbUserField" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$GeneralContent$C049$ctl00$ctl00$NoBotValidation$ctl00$ctl00$hdnStatuses" Value="mouseMove=OK;minTimeoutBetweenLoadAndPostback=13487;" RecordedValue="mouseMove=OK;minTimeoutBetweenLoadAndPostback=13487;" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$GeneralContent$C049$ctl00$ctl00$tbEmail" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$GeneralContent$C049$ctl00$ctl00$tbFirstName" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$GeneralContent$C049$ctl00$ctl00$tbLastName" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$GeneralContent$C049$ctl00$ctl00$tbCompanyName" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="302a4d44-6929-4a87-896c-5fc476934a19" Version="1.1" Url="http://www.telerik.com/account/servicelogout" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://www.telerik.com/login/v2/telerik?ReturnUrl=https%3a%2f%2fidentity.telerik.com%2fv2%2foauth%2ftelerik%2fauthorize%3fclient_id%3dhttp%253a%252f%252fwww.lean.telerik.com%26redirect_uri%3dhttp%253a%252f%252fwww.telerik.com%252faccount%26response_type%3dcode%26state%3dC432102B73B3E119D38C3DE082AAC5D97CF4B165701045154919663AD39BEF9F" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="644d3828-70c6-4979-9d81-7a4421c45335" Version="1.1" Url="https://229097002.log.optimizely.com/event" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.telerik.com/login/v2/telerik?ReturnUrl=https%3a%2f%2fidentity.telerik.com%2fv2%2foauth%2ftelerik%2fauthorize%3fclient_id%3dhttp%253a%252f%252fwww.lean.telerik.com%26redirect_uri%3dhttp%253a%252f%252fwww.telerik.com%252faccount%26response_type%3dcode%26state%3dC432102B73B3E119D38C3DE082AAC5D97CF4B165701045154919663AD39BEF9F" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="a" Value="229097002" RecordedValue="229097002" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="d" Value="229097002" RecordedValue="229097002" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="y" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="src" Value="js" RecordedValue="js" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="s231842852" Value="ff" RecordedValue="ff" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="s231947722" Value="direct" RecordedValue="direct" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="s232031415" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="n" Value="https%3A%2F%2Fwww.telerik.com%2Flogin%2Fv2%2Ftelerik%3FReturnUrl%3Dhttps%253a%252f%252fidentity.telerik.com%252fv2%252foauth%252ftelerik%252fauthorize%253fclient_id%253dhttp%25253a%25252f%25252fwww.lean.telerik.com%2526redirect_uri%253dhttp%25253a%25252f%25252fwww.telerik.com%25252faccount%2526response_type%253dcode%2526state%253dC432102B73B3E119D38C3DE082AAC5D97CF4B165701045154919663AD39BEF9F" RecordedValue="https%3A%2F%2Fwww.telerik.com%2Flogin%2Fv2%2Ftelerik%3FReturnUrl%3Dhttps%253a%252f%252fidentity.telerik.com%252fv2%252foauth%252ftelerik%252fauthorize%253fclient_id%253dhttp%25253a%25252f%25252fwww.lean.telerik.com%2526redirect_uri%253dhttp%25253a%25252f%25252fwww.telerik.com%25252faccount%2526response_type%253dcode%2526state%253dC432102B73B3E119D38C3DE082AAC5D97CF4B165701045154919663AD39BEF9F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u" Value="oeu1415535995726r0.41546419728489103" RecordedValue="oeu1415535995726r0.41546419728489103" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="wxhr" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="t" Value="1415566382180" RecordedValue="1415566382180" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="f" Value="1469994211,2032500120,2074870295,2099500470,2102420102,2114210260,2145410051" RecordedValue="1469994211,2032500120,2074870295,2099500470,2102420102,2114210260,2145410051" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="g" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="820f8cd3-ad45-440a-b784-226eac3691b0" Version="1.1" Url="https://dtzbdy9anri2p.cloudfront.net/telerik/fonts/MetricWeb-Semibold.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.telerik.com/login/v2/telerik?ReturnUrl=https%3a%2f%2fidentity.telerik.com%2fv2%2foauth%2ftelerik%2fauthorize%3fclient_id%3dhttp%253a%252f%252fwww.lean.telerik.com%26redirect_uri%3dhttp%253a%252f%252fwww.telerik.com%252faccount%26response_type%3dcode%26state%3dC432102B73B3E119D38C3DE082AAC5D97CF4B165701045154919663AD39BEF9F" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="f16a5c89-5f9a-46b0-8c8e-be40a3d1b722" Version="1.1" Url="https://dtzbdy9anri2p.cloudfront.net/telerik/iconfont/dist/tlrk-icon-font-52e0b522b66ef183b8b017456f274e79.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.telerik.com/login/v2/telerik?ReturnUrl=https%3a%2f%2fidentity.telerik.com%2fv2%2foauth%2ftelerik%2fauthorize%3fclient_id%3dhttp%253a%252f%252fwww.lean.telerik.com%26redirect_uri%3dhttp%253a%252f%252fwww.telerik.com%252faccount%26response_type%3dcode%26state%3dC432102B73B3E119D38C3DE082AAC5D97CF4B165701045154919663AD39BEF9F" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="013606a9-59ba-4075-bb36-a58c11a8fd40" Version="1.1" Url="https://dtzbdy9anri2p.cloudfront.net/telerik/fonts/FaktSlabPro-Medium.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.telerik.com/login/v2/telerik?ReturnUrl=https%3a%2f%2fidentity.telerik.com%2fv2%2foauth%2ftelerik%2fauthorize%3fclient_id%3dhttp%253a%252f%252fwww.lean.telerik.com%26redirect_uri%3dhttp%253a%252f%252fwww.telerik.com%252faccount%26response_type%3dcode%26state%3dC432102B73B3E119D38C3DE082AAC5D97CF4B165701045154919663AD39BEF9F" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://www.telerik.com/account" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="gn" Value="tlrk" RecordedValue="tlrk" CorrelationBinding="{{QueryStringParam1.gn}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="continue" Value="https%3a%2f%2fidentity.telerik.com%2fv2%2foauth%2fsignout%3freturnurl%3dhttp%253a%252f%252fwww.telerik.com%252faccount" RecordedValue="https%3a%2f%2fidentity.telerik.com%2fv2%2foauth%2fsignout%3freturnurl%3dhttp%253a%252f%252fwww.telerik.com%252faccount" CorrelationBinding="{{QueryStringParam2.continue}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+  </Items>
+  <DataSources>
+    <DataSource Name="Users" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\db.csv">
+      <Tables>
+        <DataSourceTable Name="db#csv" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Sequential" />
+      </Tables>
+    </DataSource>
+  </DataSources>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>
