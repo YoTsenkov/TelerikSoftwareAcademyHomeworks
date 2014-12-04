@@ -1,0 +1,124 @@
+
+<html>
+   <head>
+      <style type="text/css">
+         .sikuli-code {
+            font-size: 20px;
+            font-family: "Osaka-mono", Monospace;
+            line-height: 1.5em;
+            display:table-cell;
+            white-space: pre-wrap;       /* css-3 */
+            white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+            white-space: -pre-wrap;      /* Opera 4-6 */
+            white-space: -o-pre-wrap;    /* Opera 7 */
+            word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            width: 99%;   /* remove horizontal scroll-bar when viewing in IE7 */
+         }
+         .sikuli-code img {
+            vertical-align: middle;
+            margin: 2px;
+            border: 1px solid #ccc;
+            padding: 2px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-box-shadow: 1px 1px 1px gray;
+            -webkit-box-shadow: 1px 1px 2px gray;
+         }
+         .kw {
+            color: blue;
+         }
+         .skw {
+            color: rgb(63, 127, 127);
+         }
+
+         .str {
+            color: rgb(128, 0, 0);
+         }
+
+         .dig {
+            color: rgb(128, 64, 0);
+         }
+
+         .cmt {
+            color: rgb(200, 0, 200);
+         }
+
+         h2 {
+            display: inline;
+            font-weight: normal;
+         }
+
+         .info {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            display: none;
+         }
+
+         a {
+            color: #9D2900;
+         }
+
+         body {
+            font-family: "Trebuchet MS", Arial, Sans-Serif;
+         }
+
+      </style>
+   </head>
+<body>
+<div class="info">
+<h2>_uimap.sikuli\_uimap.sikuli</h2> <a href="_uimap.sikuli\_uimap.zip">(Download this script)</a>
+</div>
+<pre class="sikuli-code">
+<span class="cmt">########################################################
+</span><span class="cmt"># UI map for XYZ
+</span><span class="cmt">########################################################
+</span><span class="kw">from</span> sikuli <span class="kw">import</span> *
+<span class="cmt">########################################################
+</span>
+<span class="kw">class</span> GoogleMap:
+    google_search_input = <img src="google-search-input.png" />
+    google_telerik_link = <img src="google-telerik-link.png" />
+
+<span class="kw">class</span> CapitalsMap:
+    oslo = <img src="oslo.png" />
+    stockholm = <img src="stockholm.png" />
+    washington = <img src="washington.png" />
+    copenhagen = <img src="copenhagen.png" />
+    seoul = <img src="seoul.png" />
+    rome = <img src="rome.png" />
+    madrid = <img src="madrid.png" />
+    italy = <img src="italy.png" />
+    spain = <img src="spain.png" />
+    norway = <img src="norway.png" />
+    denmark = <img src="denmark.png" />
+    southKorea = <img src="south-korea.png" />
+    sweden = <img src="sweden.png" />
+    us = <img src="us.png" />
+    correctRome = <img src="rome-italy.png" />
+    correctMadrid = <img src="spain-madrid.png" />
+    correctOslo = <img src="norway-oslo.png" />
+    correctCopenhagen = <img src="denmark-copenhagen.png" />
+    correctSeoul = <img src="south-korea-seoul.png" />
+    correctStockholm = <img src="sweden-stockholm.png" />
+    correctWashington = <img src="us-washington.png" />
+
+<span class="kw">class</span> CalculatorMap:
+    add = Pattern(<img src="add.png" />).similar(<span class="dig">0.94</span>)
+    subtract = Pattern(<img src="subtract.png" />).similar(<span class="dig">0.97</span>)
+    multiply = Pattern(<img src="multiply.png" />).similar(<span class="dig">0.89</span>)
+    divide = Pattern(<img src="divide.png" />).similar(<span class="dig">0.95</span>)
+    zero = Pattern(<img src="zero.png" />).similar(<span class="dig">0.78</span>)
+    one = Pattern(<img src="one.png" />).similar(<span class="dig">0.87</span>)
+    two = Pattern(<img src="two.png" />).exact()
+    three = Pattern(<img src="three.png" />).similar(<span class="dig">0.97</span>)
+    four = Pattern(<img src="four.png" />).similar(<span class="dig">0.93</span>)
+    equals = Pattern(<img src="equals.png" />).similar(<span class="dig">0.79</span>)
+    subtractionResult = <img src="subtraction-result.png" />
+    multiplyResult = <img src="multiplyResult.png" />
+    additionResult = <img src="add-result.png" />
+    divisionResult = <img src="div-result.png" />
+    divisionByZeroMessage = <img src="division-by-zero-message.png" />
+</pre>
+</body>
+</html>

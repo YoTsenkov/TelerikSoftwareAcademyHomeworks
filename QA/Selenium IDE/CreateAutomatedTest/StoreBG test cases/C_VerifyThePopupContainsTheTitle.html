@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://www.book.store.bg/" />
+<title>C_VerifyThePopupContainsTheTitle</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">C_VerifyThePopupContainsTheTitle</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=srchstr</td>
+	<td>JavaScript</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>//input[@name='sin']</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='sin'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@name='']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//h3</td>
+	<td>regexp:[Jj]ava([Ss]cript)</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//h3</td>
+	<td>bookTitle</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=щракнете тук</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPopUp</td>
+	<td>popup</td>
+	<td>30000</td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=popup</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//html/body/table/tbody/tr[2]/td/table/tbody/tr/td/div[2]/div[3]/div/table/tbody/tr[3]/td/b</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//html/body/table/tbody/tr[2]/td/table/tbody/tr/td/div[2]/div[3]/div/table/tbody/tr[3]/td/b</td>
+	<td>regexp:\b${bookTitle}\b</td>
+</tr>
+</tbody></table>
+</body>
+</html>
